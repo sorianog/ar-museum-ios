@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7489D04D215797CF00755A00 /* ImageInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489D04C215797CF00755A00 /* ImageInformationViewController.swift */; };
 		74E6BF8B21578ECA0008AD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E6BF8A21578ECA0008AD07 /* AppDelegate.swift */; };
 		74E6BF8D21578ECA0008AD07 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 74E6BF8C21578ECA0008AD07 /* Scene.sks */; };
 		74E6BF8F21578ECA0008AD07 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E6BF8E21578ECA0008AD07 /* Scene.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7489D04C215797CF00755A00 /* ImageInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInformationViewController.swift; sourceTree = "<group>"; };
 		74E6BF8721578ECA0008AD07 /* ar-museum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar-museum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E6BF8A21578ECA0008AD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E6BF8C21578ECA0008AD07 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				74E6BF9521578ECB0008AD07 /* Assets.xcassets */,
 				74E6BF9721578ECB0008AD07 /* LaunchScreen.storyboard */,
 				74E6BF9A21578ECB0008AD07 /* Info.plist */,
+				7489D04C215797CF00755A00 /* ImageInformationViewController.swift */,
 			);
 			path = "ar-museum";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				74E6BF9121578ECA0008AD07 /* ViewController.swift in Sources */,
 				74E6BF8F21578ECA0008AD07 /* Scene.swift in Sources */,
 				74E6BF8B21578ECA0008AD07 /* AppDelegate.swift in Sources */,
+				7489D04D215797CF00755A00 /* ImageInformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76Q43N862Y;
 				INFOPLIST_FILE = "ar-museum/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76Q43N862Y;
 				INFOPLIST_FILE = "ar-museum/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
